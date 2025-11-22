@@ -140,6 +140,41 @@ https://colab.research.google.com/github/armelyara/Green/blob/main/drgreen-v2.ip
    - The dataset will be automatically downloaded from Google Drive
    - Training will begin automatically after dataset preparation
 
+### Platform Support
+
+The notebook automatically detects and adapts to different environments:
+
+- **Google Colab**: Full support with automatic path configuration
+- **Kaggle Notebooks**: Full support with Kaggle-specific paths
+- **Local Environment**: Supported with manual dataset setup
+
+### Troubleshooting
+
+#### Protobuf Compatibility Error
+
+If you encounter `AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'`, the notebook includes an automatic fix that installs the compatible protobuf version (3.20.3) in the first cell. Simply run all cells in order.
+
+**Error example:**
+```
+AttributeError: 'MessageFactory' object has no attribute 'GetPrototype'
+```
+
+**Solution:** The notebook automatically handles this by installing `protobuf==3.20.3` before importing TensorFlow.
+
+#### Dataset Download Issues
+
+If automatic download fails:
+
+1. **Manual upload option**: Upload the dataset ZIP file directly to the notebook environment
+2. **Check file ID**: Ensure the Google Drive file ID is correct and the file is publicly accessible
+3. **Network issues**: Retry the download or use a different network connection
+
+#### GPU Not Detected
+
+- **Colab**: Runtime → Change runtime type → Hardware accelerator → GPU
+- **Kaggle**: Settings → Accelerator → GPU T4 x2
+- Training will work on CPU but will be significantly slower (10-20x)
+
 ## Training the Model
 
 ### Configuration
