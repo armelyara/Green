@@ -234,7 +234,7 @@ This model is designed to be integrated into the DrGreen mobile application for 
 
 ```
 Green/
-├── drgreen-v2.ipynb          # Main training notebook
+├── green-v2.ipynb          # Main training notebook
 ├── models/                    # Saved models and logs
 │   ├── best_model_v7.keras   # Best model checkpoint
 │   └── training_log_v7.csv   # Training metrics
