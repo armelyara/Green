@@ -129,7 +129,7 @@ cd Green
 
 Click the "Open in Colab" badge in the notebook or visit:
 ```
-https://colab.research.google.com/github/armelyara/Green/blob/main/drgreen-v2.ipynb
+https://colab.research.google.com/github/armelyara/Green/blob/main/green-v2.ipynb
 ```
 
 3. **Enable GPU (Recommended)**
