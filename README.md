@@ -292,7 +292,7 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 
 ## Contact
 
-For questions, issues, or collaboration opportunities related to the Green model or DrGreen application, please open an issue on this repository.
+For questions, issues, or collaboration opportunities related to the Green model or DrGreen application, please send an email to armelyara@thedayinfo.com or open an issue on this repository.
 
 ---
 
